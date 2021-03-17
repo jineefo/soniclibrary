@@ -1,0 +1,3 @@
+[arm64-v8a] Compile        : sonic <= sonicjni.c
+[arm64-v8a] Compile        : sonic <= sonic.c
+[arm64-v8a] SharedLibrary  : libsonic.so

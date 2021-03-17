@@ -1,0 +1,60 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/jindan/Documents/自研/mylibrary",
+      "sdkFolder": "/Users/jindan/Downloads/android-sdk-macosx",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/jindan/Documents/自研/mylibrary/build/intermediates",
+      "gradleModulePathName": ":",
+      "moduleRootFolder": "/Users/jindan/Documents/自研/mylibrary",
+      "makeFile": "/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "/Users/jindan/Documents/自研/mylibrary/.cxx",
+      "cxxFolder": "/Users/jindan/Documents/自研/mylibrary/.cxx",
+      "ndkFolder": "/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669",
+      "ndkVersion": "21.0.6113669",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/lib",
+    "objFolder": "/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj/local",
+    "jsonFolder": "/Users/jindan/Documents/自研/mylibrary/.cxx/ndkBuild/debug",
+    "gradleBuildOutputFolder": "/Users/jindan/Documents/自研/mylibrary/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 19,
+  "cxxBuildFolder": "/Users/jindan/Documents/自研/mylibrary/.cxx/ndkBuild/debug/armeabi-v7a",
+  "jsonFile": "/Users/jindan/Documents/自研/mylibrary/.cxx/ndkBuild/debug/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/jindan/Documents/自研/mylibrary/.cxx/cxx/debug/armeabi-v7a",
+  "objFolder": "/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a",
+  "buildCommandFile": "/Users/jindan/Documents/自研/mylibrary/.cxx/ndkBuild/debug/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/jindan/Documents/自研/mylibrary/.cxx/ndkBuild/debug/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/jindan/Documents/自研/mylibrary/.cxx/ndkBuild/debug/armeabi-v7a/build_model.json",
+  "jsonGenerationLoggingRecordFile": "/Users/jindan/Documents/自研/mylibrary/.cxx/ndkBuild/debug/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/jindan/Documents/自研/mylibrary/.cxx/ndkBuild/debug/armeabi-v7a/compile_commands.json"
+}
