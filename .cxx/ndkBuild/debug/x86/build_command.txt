@@ -1,8 +1,8 @@
 Executable : /Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/ndk-build
 arguments : 
 NDK_PROJECT_PATH=null
-APP_BUILD_SCRIPT=/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Android.mk
-NDK_APPLICATION_MK=/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Application.mk
+APP_BUILD_SCRIPT=/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Android.mk
+NDK_APPLICATION_MK=/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Application.mk
 APP_ABI=x86
 NDK_ALL_ABIS=x86
 NDK_DEBUG=1

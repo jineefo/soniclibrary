@@ -1,0 +1,25 @@
+fcntl(): Bad file descriptor
+/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/source/SoundTouch/cpu_detect_x86.cpp:56:12: warning: 'bit_MMX' macro redefined [-Wmacro-redefined]
+   #define bit_MMX     (1 << 23)
+           ^
+/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include/cpuid.h:126:9: note: previous definition is here
+#define bit_MMX         0x00800000
+        ^
+/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/source/SoundTouch/cpu_detect_x86.cpp:57:12: warning: 'bit_SSE' macro redefined [-Wmacro-redefined]
+   #define bit_SSE     (1 << 25)
+           ^
+/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include/cpuid.h:129:9: note: previous definition is here
+#define bit_SSE         0x02000000
+        ^
+/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/source/SoundTouch/cpu_detect_x86.cpp:58:12: warning: 'bit_SSE2' macro redefined [-Wmacro-redefined]
+   #define bit_SSE2    (1 << 26)
+           ^
+/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include/cpuid.h:130:9: note: previous definition is here
+#define bit_SSE2        0x04000000
+        ^
+3 warnings generated.
+jni-touchsource/soundtouch/source/SoundTouch/FIRFilter.cpp:313: error: undefined reference to 'soundtouch::FIRFilterSSE::FIRFilterSSE()'
+jni-touchsource/soundtouch/source/SoundTouch/TDStretch.h:262: error: undefined reference to 'vtable for soundtouch::TDStretchSSE'
+/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld: the vtable symbol may be undefined because the class is missing its key function
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/build/core/build-binary.mk:725: /Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj/local/x86/libsoundtouch.so] Error 1

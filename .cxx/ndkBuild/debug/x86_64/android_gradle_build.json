@@ -1,38 +1,82 @@
 {
   "buildFiles": [
-    "/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Android.mk",
-    "/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Application.mk"
+    "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Android.mk",
+    "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Application.mk"
   ],
   "cleanCommands": [
-    "/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/lib clean"
+    "/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Android.mk NDK_APPLICATION_MK\u003d/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/lib clean"
   ],
-  "buildTargetsCommand": "/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Android.mk NDK_APPLICATION_MK\u003d/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
-    "sonic-debug-x86_64": {
-      "buildCommand": "/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/lib /Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj/local/x86_64/libsonic.so",
+    "soundtouch-debug-x86_64": {
+      "buildCommand": "/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Android.mk NDK_APPLICATION_MK\u003d/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/lib /Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj/local/x86_64/libsoundtouch.so",
       "toolchain": "toolchain-x86_64",
       "abi": "x86_64",
-      "artifactName": "sonic",
+      "artifactName": "soundtouch",
       "files": [
         {
-          "src": "/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/sonic.c",
-          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/jindan/Documents/自研/mylibrary/src/main/java/jni -DANDROID -Wall -Wformat -Werror\u003dformat-security"
+          "src": "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch-jni.cpp",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/include -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource -DANDROID -Wall -fvisibility\u003dhidden -I soundtouch/source/../include -D ST_NO_EXCEPTION_HANDLING -fdata-sections -ffunction-sections -marm -Wformat -Werror\u003dformat-security"
         },
         {
-          "src": "/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/sonicjni.c",
-          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/jindan/Documents/自研/mylibrary/src/main/java/jni -DANDROID -Wall -Wformat -Werror\u003dformat-security"
+          "src": "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/source/SoundTouch/AAFilter.cpp",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/include -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource -DANDROID -Wall -fvisibility\u003dhidden -I soundtouch/source/../include -D ST_NO_EXCEPTION_HANDLING -fdata-sections -ffunction-sections -marm -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/source/SoundTouch/BPMDetect.cpp",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/include -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource -DANDROID -Wall -fvisibility\u003dhidden -I soundtouch/source/../include -D ST_NO_EXCEPTION_HANDLING -fdata-sections -ffunction-sections -marm -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/source/SoundTouch/FIFOSampleBuffer.cpp",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/include -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource -DANDROID -Wall -fvisibility\u003dhidden -I soundtouch/source/../include -D ST_NO_EXCEPTION_HANDLING -fdata-sections -ffunction-sections -marm -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/source/SoundTouch/FIRFilter.cpp",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/include -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource -DANDROID -Wall -fvisibility\u003dhidden -I soundtouch/source/../include -D ST_NO_EXCEPTION_HANDLING -fdata-sections -ffunction-sections -marm -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/source/SoundTouch/InterpolateCubic.cpp",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/include -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource -DANDROID -Wall -fvisibility\u003dhidden -I soundtouch/source/../include -D ST_NO_EXCEPTION_HANDLING -fdata-sections -ffunction-sections -marm -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/source/SoundTouch/InterpolateLinear.cpp",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/include -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource -DANDROID -Wall -fvisibility\u003dhidden -I soundtouch/source/../include -D ST_NO_EXCEPTION_HANDLING -fdata-sections -ffunction-sections -marm -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/source/SoundTouch/InterpolateShannon.cpp",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/include -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource -DANDROID -Wall -fvisibility\u003dhidden -I soundtouch/source/../include -D ST_NO_EXCEPTION_HANDLING -fdata-sections -ffunction-sections -marm -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/source/SoundTouch/PeakFinder.cpp",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/include -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource -DANDROID -Wall -fvisibility\u003dhidden -I soundtouch/source/../include -D ST_NO_EXCEPTION_HANDLING -fdata-sections -ffunction-sections -marm -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/source/SoundTouch/RateTransposer.cpp",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/include -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource -DANDROID -Wall -fvisibility\u003dhidden -I soundtouch/source/../include -D ST_NO_EXCEPTION_HANDLING -fdata-sections -ffunction-sections -marm -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/source/SoundTouch/SoundTouch.cpp",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/include -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource -DANDROID -Wall -fvisibility\u003dhidden -I soundtouch/source/../include -D ST_NO_EXCEPTION_HANDLING -fdata-sections -ffunction-sections -marm -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/source/SoundTouch/TDStretch.cpp",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/include -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource -DANDROID -Wall -fvisibility\u003dhidden -I soundtouch/source/../include -D ST_NO_EXCEPTION_HANDLING -fdata-sections -ffunction-sections -marm -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/source/SoundTouch/cpu_detect_x86.cpp",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource/soundtouch/include -I/Users/jindan/Documents/自研/mylibrary/jni-touchsource -DANDROID -Wall -fvisibility\u003dhidden -I soundtouch/source/../include -D ST_NO_EXCEPTION_HANDLING -fdata-sections -ffunction-sections -marm -Wformat -Werror\u003dformat-security"
         }
       ],
-      "output": "/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj/local/x86_64/libsonic.so"
+      "output": "/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj/local/x86_64/libsoundtouch.so"
     }
   },
   "toolchains": {
     "toolchain-x86_64": {
-      "cCompilerExecutable": "/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+      "cppCompilerExecutable": "/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
     }
   },
-  "cFileExtensions": [
-    "c"
-  ],
-  "cppFileExtensions": []
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
 }

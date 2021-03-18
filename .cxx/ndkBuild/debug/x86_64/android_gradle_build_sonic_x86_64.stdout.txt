@@ -1,3 +1,0 @@
-[x86_64] Compile        : sonic <= sonicjni.c
-[x86_64] Compile        : sonic <= sonic.c
-[x86_64] SharedLibrary  : libsonic.so

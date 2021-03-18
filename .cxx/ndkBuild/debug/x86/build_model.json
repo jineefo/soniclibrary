@@ -9,7 +9,7 @@
       "intermediatesFolder": "/Users/jindan/Documents/自研/mylibrary/build/intermediates",
       "gradleModulePathName": ":",
       "moduleRootFolder": "/Users/jindan/Documents/自研/mylibrary",
-      "makeFile": "/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Android.mk",
+      "makeFile": "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Android.mk",
       "buildSystem": "NDK_BUILD",
       "compilerSettingsCacheFolder": "/Users/jindan/Documents/自研/mylibrary/.cxx",
       "cxxFolder": "/Users/jindan/Documents/自研/mylibrary/.cxx",

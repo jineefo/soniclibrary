@@ -1,18 +1,18 @@
 {
   "buildFiles": [
-    "/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Android.mk",
-    "/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Application.mk"
+    "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Android.mk",
+    "/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Application.mk"
   ],
   "cleanCommands": [
-    "/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/lib clean"
+    "/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Android.mk NDK_APPLICATION_MK\u003d/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/lib clean"
   ],
-  "buildTargetsCommand": "/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Android.mk NDK_APPLICATION_MK\u003d/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
-    "sonic-debug-x86": {
-      "artifactName": "sonic",
-      "buildCommand": "/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/lib /Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj/local/x86/libsonic.so",
+    "soundtouch-debug-x86": {
+      "artifactName": "soundtouch",
+      "buildCommand": "/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Android.mk NDK_APPLICATION_MK\u003d/Users/jindan/Documents/自研/mylibrary/jni-touchsource/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/lib /Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj/local/x86/libsoundtouch.so",
       "abi": "x86",
-      "output": "/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj/local/x86/libsonic.so"
+      "output": "/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj/local/x86/libsoundtouch.so"
     }
   }
 }

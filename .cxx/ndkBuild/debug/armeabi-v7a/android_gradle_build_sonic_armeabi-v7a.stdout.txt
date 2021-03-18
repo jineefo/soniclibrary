@@ -1,3 +1,0 @@
-[armeabi-v7a] Compile thumb  : sonic <= sonicjni.c
-[armeabi-v7a] Compile thumb  : sonic <= sonic.c
-[armeabi-v7a] SharedLibrary  : libsonic.so

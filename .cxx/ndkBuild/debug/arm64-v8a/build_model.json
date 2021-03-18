@@ -1,18 +1,18 @@
 {
   "variant": {
     "module": {
-      "rootBuildGradleFolder": "/Users/jindan/Documents/自研/mylibrary",
+      "rootBuildGradleFolder": "/Users/jindan/Documents/自研/touchsourceAsonic",
       "sdkFolder": "/Users/jindan/Downloads/android-sdk-macosx",
       "isNativeCompilerSettingsCacheEnabled": false,
       "isBuildOnlyTargetAbiEnabled": true,
       "splitsAbiFilterSet": [],
-      "intermediatesFolder": "/Users/jindan/Documents/自研/mylibrary/build/intermediates",
+      "intermediatesFolder": "/Users/jindan/Documents/自研/touchsourceAsonic/build/intermediates",
       "gradleModulePathName": ":",
-      "moduleRootFolder": "/Users/jindan/Documents/自研/mylibrary",
-      "makeFile": "/Users/jindan/Documents/自研/mylibrary/src/main/java/jni/Android.mk",
+      "moduleRootFolder": "/Users/jindan/Documents/自研/touchsourceAsonic",
+      "makeFile": "/Users/jindan/Documents/自研/touchsourceAsonic/jni-touchsource/Android.mk",
       "buildSystem": "NDK_BUILD",
-      "compilerSettingsCacheFolder": "/Users/jindan/Documents/自研/mylibrary/.cxx",
-      "cxxFolder": "/Users/jindan/Documents/自研/mylibrary/.cxx",
+      "compilerSettingsCacheFolder": "/Users/jindan/Documents/自研/touchsourceAsonic/.cxx",
+      "cxxFolder": "/Users/jindan/Documents/自研/touchsourceAsonic/.cxx",
       "ndkFolder": "/Users/jindan/Downloads/android-sdk-macosx/ndk/21.0.6113669",
       "ndkVersion": "21.0.6113669",
       "ndkSupportedAbiList": [
@@ -33,28 +33,26 @@
     "cFlagList": [],
     "cppFlagsList": [],
     "variantName": "debug",
-    "soFolder": "/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/lib",
-    "objFolder": "/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj/local",
-    "jsonFolder": "/Users/jindan/Documents/自研/mylibrary/.cxx/ndkBuild/debug",
-    "gradleBuildOutputFolder": "/Users/jindan/Documents/自研/mylibrary/.cxx/cxx/debug",
+    "soFolder": "/Users/jindan/Documents/自研/touchsourceAsonic/build/intermediates/ndkBuild/debug/lib",
+    "objFolder": "/Users/jindan/Documents/自研/touchsourceAsonic/build/intermediates/ndkBuild/debug/obj/local",
+    "jsonFolder": "/Users/jindan/Documents/自研/touchsourceAsonic/.cxx/ndkBuild/debug",
+    "gradleBuildOutputFolder": "/Users/jindan/Documents/自研/touchsourceAsonic/.cxx/cxx/debug",
     "isDebuggableEnabled": true,
     "validAbiList": [
       "ARMEABI_V7A",
-      "ARM64_V8A",
-      "X86",
-      "X86_64"
+      "ARM64_V8A"
     ],
     "buildTargetSet": []
   },
   "abi": "ARM64_V8A",
   "abiPlatformVersion": 19,
-  "cxxBuildFolder": "/Users/jindan/Documents/自研/mylibrary/.cxx/ndkBuild/debug/arm64-v8a",
-  "jsonFile": "/Users/jindan/Documents/自研/mylibrary/.cxx/ndkBuild/debug/arm64-v8a/android_gradle_build.json",
-  "gradleBuildOutputFolder": "/Users/jindan/Documents/自研/mylibrary/.cxx/cxx/debug/arm64-v8a",
-  "objFolder": "/Users/jindan/Documents/自研/mylibrary/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a",
-  "buildCommandFile": "/Users/jindan/Documents/自研/mylibrary/.cxx/ndkBuild/debug/arm64-v8a/build_command.txt",
-  "buildOutputFile": "/Users/jindan/Documents/自研/mylibrary/.cxx/ndkBuild/debug/arm64-v8a/build_output.txt",
-  "modelOutputFile": "/Users/jindan/Documents/自研/mylibrary/.cxx/ndkBuild/debug/arm64-v8a/build_model.json",
-  "jsonGenerationLoggingRecordFile": "/Users/jindan/Documents/自研/mylibrary/.cxx/ndkBuild/debug/arm64-v8a/json_generation_record.json",
-  "compileCommandsJsonFile": "/Users/jindan/Documents/自研/mylibrary/.cxx/ndkBuild/debug/arm64-v8a/compile_commands.json"
+  "cxxBuildFolder": "/Users/jindan/Documents/自研/touchsourceAsonic/.cxx/ndkBuild/debug/arm64-v8a",
+  "jsonFile": "/Users/jindan/Documents/自研/touchsourceAsonic/.cxx/ndkBuild/debug/arm64-v8a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/jindan/Documents/自研/touchsourceAsonic/.cxx/cxx/debug/arm64-v8a",
+  "objFolder": "/Users/jindan/Documents/自研/touchsourceAsonic/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a",
+  "buildCommandFile": "/Users/jindan/Documents/自研/touchsourceAsonic/.cxx/ndkBuild/debug/arm64-v8a/build_command.txt",
+  "buildOutputFile": "/Users/jindan/Documents/自研/touchsourceAsonic/.cxx/ndkBuild/debug/arm64-v8a/build_output.txt",
+  "modelOutputFile": "/Users/jindan/Documents/自研/touchsourceAsonic/.cxx/ndkBuild/debug/arm64-v8a/build_model.json",
+  "jsonGenerationLoggingRecordFile": "/Users/jindan/Documents/自研/touchsourceAsonic/.cxx/ndkBuild/debug/arm64-v8a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/jindan/Documents/自研/touchsourceAsonic/.cxx/ndkBuild/debug/arm64-v8a/compile_commands.json"
 }
